@@ -1,0 +1,133 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+<!--    btn_rtgl_green_yellow-->
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="ターゲット"
+        android:textSize="20sp"
+        android:background="@drawable/btn_rtgl_green_yellow"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        app:layout_gravity="center_horizontal"/>
+
+    <GridLayout
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:layout_gravity="center_horizontal"  >
+
+<!--        btn_rtgl_sky_blue-->
+        <Button
+            android:id="@+id/btn_set_s_1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="1"
+            android:textSize="20sp"
+            android:onClick="Input_1"
+            android:background="@drawable/btn_rtgl_sky_blue"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"/>
+        <Button
+            android:id="@+id/btn_set_s_2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="2"
+            android:textSize="20sp"
+            android:onClick="Input_2"
+            android:background="@drawable/btn_rtgl_green_yellow"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"/>
+        <Button
+            android:id="@+id/btn_set_s_3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="3"
+            android:textSize="20sp"
+            android:onClick="Input_3"
+            android:background="@drawable/btn_rtgl_green_yellow"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"/>
+        <Button
+            android:id="@+id/btn_set_s_4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="4"
+            android:textSize="20sp"
+            android:onClick="Input_4"
+            android:background="@drawable/btn_rtgl_green_yellow"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"/>
+        <Button
+            android:id="@+id/btn_set_s_5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="5"
+            android:textSize="20sp"
+            android:onClick="Input_5"
+            android:background="@drawable/btn_rtgl_green_yellow"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"/>
+        <Button
+            android:id="@+id/btn_set_s_6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="6"
+            android:textSize="20sp"
+            android:onClick="Input_6"
+            android:background="@drawable/btn_rtgl_green_yellow"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"/>
+        <Button
+            android:id="@+id/btn_set_s_7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="7"
+            android:textSize="20sp"
+            android:onClick="Input_7"
+            android:background="@drawable/btn_rtgl_green_yellow"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"/>
+        <Button
+            android:id="@+id/btn_set_s_8"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="8"
+            android:textSize="20sp"
+            android:onClick="Input_8"
+            android:background="@drawable/btn_rtgl_green_yellow"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"/>
+
+        <Button
+            android:id="@+id/btn_set_s_9"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_rtgl_green_yellow"
+            android:onClick="Input_9"
+            android:text="9"
+            android:textSize="20sp"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+    </GridLayout>
+
+
+</LinearLayout>

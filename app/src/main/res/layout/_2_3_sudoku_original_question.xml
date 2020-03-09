@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/textView_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/title_sudoku_auto"
+        android:textSize="15sp" />
+
+    <RelativeLayout
+        android:id="@+id/fragment_button_sudoku"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:layout_gravity="center_horizontal">
+    </RelativeLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <RelativeLayout
+        android:id="@+id/fragment_button_sudoku_input"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal">
+
+    </RelativeLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <RelativeLayout
+        android:id="@+id/fragment_button_sudoku_analysis_states"
+        android:layout_width="360dp"
+        android:layout_height="97dp"
+        android:layout_gravity="center_horizontal">
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_to_sudoku_home_from_demo"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:onClick="return_home"
+        android:text="ホームに戻る"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.432" />
+
+</LinearLayout>

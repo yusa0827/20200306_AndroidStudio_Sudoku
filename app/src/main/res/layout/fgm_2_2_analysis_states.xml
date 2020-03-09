@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="解析できるか：状態　Yes or No"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+    <Button
+        android:id="@+id/button_move_to_analysis2_demo_demo_demo"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="lets_analysis_by_reuse_demo"
+        android:text="解析を開始する" />
+
+</LinearLayout>

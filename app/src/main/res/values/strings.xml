@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">スードクタ―</string>
+    <string name="button_s1" />
+    <string name="button_input_1">1</string>
+    <string name="button_input_2">2</string>
+    <string name="button_input_3">3</string>
+    <string name="button_input_4">4</string>
+    <string name="button_input_5">5</string>
+    <string name="button_input_6">6</string>
+    <string name="button_input_7">7</string>
+    <string name="button_input_8">8</string>
+    <string name="button_input_9">9</string>
+    <string name="title_sudoku">数独アシストアプリ</string>
+    <string name="button_play_with_demo">デモで遊ぶ</string>
+    <string name="button_play_with_manual">手で入力</string>
+    <string name="button_play_with_auto">カメラで入力</string>
+    <string name="title_sudoku_auto">数独アシスト　カメラで入力</string>
+    <string name="title_sudoku_demo">数独アシスト　デモ</string>
+    <string name="title_sudoku_manual">数独アシスト　手入力</string>
+    <string name="button_start_sudoku">数独アシストを起動</string>
+    <string name="button_auto_to_sudoku_home">ホームに戻る</string>
+    <string name="button_demo_to_sudoku_home">ホームに戻る</string>
+    <string name="button_manual_to_sudoku_home">ホームに戻る</string>
+    <string name="textView_fragment_state">現在の状況</string>
+    <string name="button_let_us_analysis">解析しますか？</string>
+    <string name="button_show_you_result">解析結果を見ますか？</string>
+    <string name="button_work_camera">ご参考に数独表をカメラで撮影しますか？</string>
+</resources>

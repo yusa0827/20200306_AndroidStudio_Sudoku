@@ -1,0 +1,18 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"    >
+
+    <TextView
+        android:id="@+id/fgm_fgm_btn_als_step_8_perfect"
+        android:layout_width="360dp"
+        android:layout_height="120dp"
+        android:text="おめでとうございます！"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:onClick="als_step_demo_7_"
+        android:background="@drawable/btn_rtgl_sky_blue" />
+</LinearLayout>
